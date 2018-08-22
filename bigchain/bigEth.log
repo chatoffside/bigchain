@@ -1,0 +1,23 @@
+INFO [08-22|15:18:53.097] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [08-22|15:18:53.105] Starting peer-to-peer node               instance=Geth/v1.8.13-stable/darwin-amd64/go1.10.3
+INFO [08-22|15:18:53.105] Allocated cache and file handles         database=/Users/coder/repos/rndflo/githubrepos/bigchain/bigchain/bigDataDir/geth/chaindata cache=768 handles=1024
+INFO [08-22|15:18:53.115] Initialised chain configuration          config="{ChainID: 2018 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [08-22|15:18:53.115] Disk storage enabled for ethash caches   dir=/Users/coder/repos/rndflo/githubrepos/bigchain/bigchain/bigDataDir/geth/ethash count=3
+INFO [08-22|15:18:53.115] Disk storage enabled for ethash DAGs     dir=/Users/coder/.ethash                                                           count=2
+INFO [08-22|15:18:53.115] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [08-22|15:18:53.115] Loaded most recent local header          number=0 hash=9d236a…641806 td=400
+INFO [08-22|15:18:53.115] Loaded most recent local full block      number=0 hash=9d236a…641806 td=400
+INFO [08-22|15:18:53.115] Loaded most recent local fast block      number=0 hash=9d236a…641806 td=400
+INFO [08-22|15:18:53.116] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-22|15:18:53.116] Starting P2P networking 
+INFO [08-22|15:18:53.127] Mapped network port                      proto=udp extport=30303 intport=30303 interface=NAT-PMP(10.0.1.1)
+INFO [08-22|15:18:53.129] UDP listener up                          self=enode://9fe88a7aeb3ddb00e85f11f3c5b5a192987e5c6bbb5b4c08e86ca8feaf08754bad48a76a646a40c6ecea106bc8a3db5e08a0dfe8aae980042bb2636e6d3665ca@192.168.2.14:30303
+INFO [08-22|15:18:53.129] RLPx listener up                         self=enode://9fe88a7aeb3ddb00e85f11f3c5b5a192987e5c6bbb5b4c08e86ca8feaf08754bad48a76a646a40c6ecea106bc8a3db5e08a0dfe8aae980042bb2636e6d3665ca@192.168.2.14:30303
+INFO [08-22|15:18:53.130] IPC endpoint opened                      url=/Users/coder/repos/rndflo/githubrepos/bigchain/bigchain/bigDataDir/geth.ipc
+INFO [08-22|15:18:53.135] Mapped network port                      proto=tcp extport=30303 intport=30303 interface=NAT-PMP(10.0.1.1)
+INFO [08-22|15:40:34.450] IPC endpoint closed                      endpoint=/Users/coder/repos/rndflo/githubrepos/bigchain/bigchain/bigDataDir/geth.ipc
+INFO [08-22|15:40:34.450] Blockchain manager stopped 
+INFO [08-22|15:40:34.450] Stopping Ethereum protocol 
+INFO [08-22|15:40:34.450] Ethereum protocol stopped 
+INFO [08-22|15:40:34.450] Transaction pool stopped 
+INFO [08-22|15:40:34.451] Database closed                          database=/Users/coder/repos/rndflo/githubrepos/bigchain/bigchain/bigDataDir/geth/chaindata

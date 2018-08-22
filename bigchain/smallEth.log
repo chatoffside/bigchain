@@ -1,0 +1,17 @@
+INFO [08-22|15:22:11.111] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [08-22|15:22:11.328] Starting peer-to-peer node               instance=Geth/v1.8.13-stable/darwin-amd64/go1.10.3
+INFO [08-22|15:22:11.328] Allocated cache and file handles         database=/Users/coder/repos/rndflo/githubrepos/bigchain/bigchain/smallDataDir/geth/chaindata cache=768 handles=1024
+INFO [08-22|15:22:11.525] Initialised chain configuration          config="{ChainID: 2018 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [08-22|15:22:11.525] Disk storage enabled for ethash caches   dir=/Users/coder/repos/rndflo/githubrepos/bigchain/bigchain/smallDataDir/geth/ethash count=3
+INFO [08-22|15:22:11.526] Disk storage enabled for ethash DAGs     dir=/Users/coder/.ethash                                                             count=2
+INFO [08-22|15:22:11.526] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [08-22|15:22:11.528] Loaded most recent local header          number=0 hash=9d236a…641806 td=400
+INFO [08-22|15:22:11.528] Loaded most recent local full block      number=0 hash=9d236a…641806 td=400
+INFO [08-22|15:22:11.529] Loaded most recent local fast block      number=0 hash=9d236a…641806 td=400
+INFO [08-22|15:22:11.541] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-22|15:22:11.543] Starting P2P networking 
+INFO [08-22|15:22:11.576] Mapped network port                      proto=udp extport=30304 intport=30304 interface=NAT-PMP(10.0.1.1)
+INFO [08-22|15:22:11.677] UDP listener up                          self=enode://4334f637ed100f3433f57630fa1008cb711a41ae98201161f0a6aa928629af1cc2fcef721a74c8eb9dc479c32f872708858767c04fbee975f0b9f2a6d60b6ed5@192.168.2.14:30304
+INFO [08-22|15:22:11.677] RLPx listener up                         self=enode://4334f637ed100f3433f57630fa1008cb711a41ae98201161f0a6aa928629af1cc2fcef721a74c8eb9dc479c32f872708858767c04fbee975f0b9f2a6d60b6ed5@192.168.2.14:30304
+INFO [08-22|15:22:11.693] Mapped network port                      proto=tcp extport=30304 intport=30304 interface=NAT-PMP(10.0.1.1)
+INFO [08-22|15:22:11.711] IPC endpoint opened                      url=/Users/coder/repos/rndflo/githubrepos/bigchain/bigchain/smallDataDir/geth.ipc

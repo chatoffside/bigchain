@@ -1,0 +1,2 @@
+admin.addPeer("enode://9fe88a7aeb3ddb00e85f11f3c5b5a192987e5c6bbb5b4c08e86ca8feaf08754bad48a76a646a40c6ecea106bc8a3db5e08a0dfe8aae980042bb2636e6d3665ca@192.168.2.14:30303")
+admin.peers
