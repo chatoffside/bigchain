@@ -15,26 +15,26 @@
 ~~~
 
 ~~~
-==> touch strongGenesis.json
+==> touch bigGenesis.json
 ~~~
 
 
 Instantiate data directory
 
 ~~~
-==> geth --datadir ./strongDataDir init ./strongGenesis.json
+==> geth --datadir ./bigDataDir init ./bigGenesis.json
 ~~~
 
-Start Ethereum peer node
+Start Ethereum small node
 
 ~~~
-==> geth --datadir ./strongDataDir --networkid 1114 console 2>> strongEth.log
+==> geth --datadir ./bigDataDir --networkid 1114 console 2>> bigEth.log
 ~~~
 
 In another terminal 
 
 ~~~
-==> tail -f strongEth.log
+==> tail -f bigEth.log
 ~~~
 
 
@@ -45,18 +45,18 @@ personal.newAccount("apple123")
 Add another peer
 
 ~~~
-==> geth --datadir ./peerDataDir init ./strongGenesis.json
+==> geth --datadir ./smallDataDir init ./bigGenesis.json
 ~~~
 
 
-Launch the 2nd peer on a different port 
+Launch the 2nd small on a different port 
 
 ~~~
-==> geth --datadir ./peerDataDir --networkid 1114 --port 30304 console 2>> peerEth.log
+==> geth --datadir ./smallDataDir --networkid 1114 --port 30304 console 2>> smallEth.log
 ~~~
 
 ~~~
-==> tail -f peerEth.log 
+==> tail -f smallEth.log 
 ~~~
 
 In the 1st console
