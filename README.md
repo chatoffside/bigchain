@@ -1,5 +1,5 @@
 # bigchain
-
+A private ethereum blockchain
 
 
 ## Steps
